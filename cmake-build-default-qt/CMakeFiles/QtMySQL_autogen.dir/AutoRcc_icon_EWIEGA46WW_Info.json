@@ -1,0 +1,20 @@
+{
+	"BUILD_DIR" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Code/Qt/QtMySQL",
+	"CMAKE_SOURCE_DIR" : "D:/Code/Qt/QtMySQL",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/include",
+	"INPUTS" : [ "D:/Code/Qt/QtMySQL/resources/icon.jpg" ],
+	"LOCK_FILE" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/QtMySQL_autogen.dir/AutoRcc_icon_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "icon" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_icon.cpp",
+	"RCC_EXECUTABLE" : "F:/Developer/Qt/6.7.2/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/QtMySQL_autogen.dir/AutoRcc_icon_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/Code/Qt/QtMySQL/icon.qrc",
+	"VERBOSITY" : 0
+}

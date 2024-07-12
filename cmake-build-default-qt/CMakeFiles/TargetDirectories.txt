@@ -1,0 +1,5 @@
+D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/QtMySQL.dir
+D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/edit_cache.dir
+D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/rebuild_cache.dir
+D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/QtMySQL_autogen_timestamp_deps.dir
+D:/Code/Qt/QtMySQL/cmake-build-default-qt/CMakeFiles/QtMySQL_autogen.dir

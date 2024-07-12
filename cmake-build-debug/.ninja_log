@@ -1,0 +1,7 @@
+# ninja log v6
+14	697	7422453790936751	QtMySQL_autogen/timestamp	8e17a7ea5c12f47
+14	697	7422453790936751	QtMySQL_autogen/mocs_compilation.cpp	8e17a7ea5c12f47
+14	697	7422453790936751	D:/Code/Qt/QtMySQL/cmake-build-debug/QtMySQL_autogen/timestamp	8e17a7ea5c12f47
+14	697	7422453790936751	D:/Code/Qt/QtMySQL/cmake-build-debug/QtMySQL_autogen/mocs_compilation.cpp	8e17a7ea5c12f47
+704	883	7422453792755633	CMakeFiles/QtMySQL.dir/QtMySQL_autogen/mocs_compilation.cpp.obj	eaee1b221a3cc2da
+738	5484	7422453793097861	CMakeFiles/QtMySQL.dir/main.cpp.obj	82bc9e5e4075eb7b
