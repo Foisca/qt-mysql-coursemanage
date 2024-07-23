@@ -8,7 +8,7 @@ DBManager::DBManager() {
     db = QSqlDatabase::addDatabase("QMYSQL");
     db.setHostName("localhost");
     db.setPort(3306);
-    db.setDatabaseName("CourseManagement");
+    db.setDatabaseName("schoolmanager");
     db.setUserName("foisca");
     db.setPassword("yejkyu");
     db.setConnectOptions("MYSQL_OPT_RECONNECT=1;SET NAMES 'utf8'");

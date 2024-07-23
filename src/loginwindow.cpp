@@ -13,11 +13,16 @@ LoginWindow::LoginWindow(QWidget *parent) : QWidget(parent), ui(new Ui::LoginWin
 
     ui->ButtonLogin->setShortcut(Qt::Key_Return);
     this->setWindowIcon(QIcon(":res/icon.ico"));
+    // 我想将 ico文件  ./res/icon.ico 作为窗口图标
+
+
+
+
 }
 
 LoginWindow::~LoginWindow() {
     delete ui;
-    delete sw;
+    delete studentWindow;
     DBManager::instance().database().close();
 }
 
@@ -48,22 +53,22 @@ void LoginWindow::on_ButtonLogin_clicked() {
         qDebug() << QString("userType = %1").arg(userType);
         switch (userType) {
             case 1: {
-                if (!sw) {
-                    sw = new StudentWindow(ui->LineEditUsername->text());
-                    connect(sw, &StudentWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
+                if (!studentWindow) {
+                    studentWindow = new StudentWindow(ui->LineEditUsername->text());
+                    connect(studentWindow, &StudentWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
                 }
                 this->hide();
-                sw->show();
+                studentWindow->show();
 
                 break;
             }
             case 2: {
-                if (!tw) {
-                    tw = new TeacherWindow(ui->LineEditUsername->text());
-                    connect(tw, &TeacherWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
+                if (!teacherWindow) {
+                    teacherWindow = new TeacherWindow(ui->LineEditUsername->text());
+                    connect(teacherWindow, &TeacherWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
                 }
                 this->hide();
-                tw->show();
+                teacherWindow->show();
             }
             case 3: {
                 break;
@@ -79,12 +84,12 @@ void LoginWindow::on_ButtonLogin_clicked() {
 
 void LoginWindow::on_ButtonRegister_clicked() {
     qDebug() << "LoginWindow: Register Try";
-    if (!rw) {
-        rw = new RegisterWindow();
-        connect(rw, &RegisterWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
+    if (!registerWindow) {
+        registerWindow = new RegisterWindow();
+        connect(registerWindow, &RegisterWindow::return_to_LoginWindow, this, &LoginWindow::on_return_to_LoginWindow);
     }
     this->hide();
-    rw->show();
+    registerWindow->show();
 }
 
 void LoginWindow::on_ButtonForget_clicked() {
@@ -93,10 +98,10 @@ void LoginWindow::on_ButtonForget_clicked() {
 
 void LoginWindow::on_return_to_LoginWindow() {
     this->show();
-    if (rw)
-        rw->hide();
-    if (tw)
-        tw->hide();
-    if (sw)
-        sw->hide();
+    if (registerWindow)
+        registerWindow->hide();
+    if (teacherWindow)
+        teacherWindow->hide();
+    if (studentWindow)
+        studentWindow->hide();
 }

@@ -92,6 +92,14 @@ build CMakeFiles/QtMySQL.dir/src/registerwindow.cpp.obj: CXX_COMPILER__QtMySQL_u
   OBJECT_DIR = CMakeFiles\QtMySQL.dir
   OBJECT_FILE_DIR = CMakeFiles\QtMySQL.dir\src
 
+build CMakeFiles/QtMySQL.dir/src/studentcourseselect.cpp.obj: CXX_COMPILER__QtMySQL_unscanned_ D$:/Code/Qt/QtMySQL/src/studentcourseselect.cpp || cmake_object_order_depends_target_QtMySQL
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QtMySQL.dir\src\studentcourseselect.cpp.obj.d
+  FLAGS = -fdiagnostics-color=always
+  INCLUDES = -ID:/Code/Qt/QtMySQL/cmake-build-default-qt -ID:/Code/Qt/QtMySQL -ID:/Code/Qt/QtMySQL/include -isystem D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/include -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtCore -isystem F:/Developer/Qt/6.7.2/mingw_64/include -isystem F:/Developer/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtGui -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtWidgets -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QtMySQL.dir
+  OBJECT_FILE_DIR = CMakeFiles\QtMySQL.dir\src
+
 build CMakeFiles/QtMySQL.dir/src/studentinformation.cpp.obj: CXX_COMPILER__QtMySQL_unscanned_ D$:/Code/Qt/QtMySQL/src/studentinformation.cpp || cmake_object_order_depends_target_QtMySQL
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\QtMySQL.dir\src\studentinformation.cpp.obj.d
@@ -103,6 +111,22 @@ build CMakeFiles/QtMySQL.dir/src/studentinformation.cpp.obj: CXX_COMPILER__QtMyS
 build CMakeFiles/QtMySQL.dir/src/studentwindow.cpp.obj: CXX_COMPILER__QtMySQL_unscanned_ D$:/Code/Qt/QtMySQL/src/studentwindow.cpp || cmake_object_order_depends_target_QtMySQL
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\QtMySQL.dir\src\studentwindow.cpp.obj.d
+  FLAGS = -fdiagnostics-color=always
+  INCLUDES = -ID:/Code/Qt/QtMySQL/cmake-build-default-qt -ID:/Code/Qt/QtMySQL -ID:/Code/Qt/QtMySQL/include -isystem D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/include -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtCore -isystem F:/Developer/Qt/6.7.2/mingw_64/include -isystem F:/Developer/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtGui -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtWidgets -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QtMySQL.dir
+  OBJECT_FILE_DIR = CMakeFiles\QtMySQL.dir\src
+
+build CMakeFiles/QtMySQL.dir/src/teacheraddnewcourse.cpp.obj: CXX_COMPILER__QtMySQL_unscanned_ D$:/Code/Qt/QtMySQL/src/teacheraddnewcourse.cpp || cmake_object_order_depends_target_QtMySQL
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QtMySQL.dir\src\teacheraddnewcourse.cpp.obj.d
+  FLAGS = -fdiagnostics-color=always
+  INCLUDES = -ID:/Code/Qt/QtMySQL/cmake-build-default-qt -ID:/Code/Qt/QtMySQL -ID:/Code/Qt/QtMySQL/include -isystem D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/include -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtCore -isystem F:/Developer/Qt/6.7.2/mingw_64/include -isystem F:/Developer/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtGui -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtWidgets -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtSql
+  OBJECT_DIR = CMakeFiles\QtMySQL.dir
+  OBJECT_FILE_DIR = CMakeFiles\QtMySQL.dir\src
+
+build CMakeFiles/QtMySQL.dir/src/teacheraddnewcourseinfo.cpp.obj: CXX_COMPILER__QtMySQL_unscanned_ D$:/Code/Qt/QtMySQL/src/teacheraddnewcourseinfo.cpp || cmake_object_order_depends_target_QtMySQL
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_SQL_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\QtMySQL.dir\src\teacheraddnewcourseinfo.cpp.obj.d
   FLAGS = -fdiagnostics-color=always
   INCLUDES = -ID:/Code/Qt/QtMySQL/cmake-build-default-qt -ID:/Code/Qt/QtMySQL -ID:/Code/Qt/QtMySQL/include -isystem D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/include -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtCore -isystem F:/Developer/Qt/6.7.2/mingw_64/include -isystem F:/Developer/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtGui -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtWidgets -isystem F:/Developer/Qt/6.7.2/mingw_64/include/QtSql
   OBJECT_DIR = CMakeFiles\QtMySQL.dir
@@ -147,7 +171,7 @@ build CMakeFiles/QtMySQL.dir/icon.rc.obj: RC_COMPILER__QtMySQL_unscanned_ D$:/Co
 #############################################
 # Link the executable QtMySQL.exe
 
-build QtMySQL.exe: CXX_EXECUTABLE_LINKER__QtMySQL_ CMakeFiles/QtMySQL.dir/QtMySQL_autogen/mocs_compilation.cpp.obj CMakeFiles/QtMySQL.dir/src/dbmanager.cpp.obj CMakeFiles/QtMySQL.dir/src/loginwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/main.cpp.obj CMakeFiles/QtMySQL.dir/src/registerstudent.cpp.obj CMakeFiles/QtMySQL.dir/src/registerwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/studentinformation.cpp.obj CMakeFiles/QtMySQL.dir/src/studentwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/teacherinfomation.cpp.obj CMakeFiles/QtMySQL.dir/src/teacherwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/utils.cpp.obj CMakeFiles/QtMySQL.dir/icon.rc.obj | F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Gui.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Sql.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Core.a || QtMySQL_autogen QtMySQL_autogen_timestamp_deps
+build QtMySQL.exe: CXX_EXECUTABLE_LINKER__QtMySQL_ CMakeFiles/QtMySQL.dir/QtMySQL_autogen/mocs_compilation.cpp.obj CMakeFiles/QtMySQL.dir/src/dbmanager.cpp.obj CMakeFiles/QtMySQL.dir/src/loginwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/main.cpp.obj CMakeFiles/QtMySQL.dir/src/registerstudent.cpp.obj CMakeFiles/QtMySQL.dir/src/registerwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/studentcourseselect.cpp.obj CMakeFiles/QtMySQL.dir/src/studentinformation.cpp.obj CMakeFiles/QtMySQL.dir/src/studentwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/teacheraddnewcourse.cpp.obj CMakeFiles/QtMySQL.dir/src/teacheraddnewcourseinfo.cpp.obj CMakeFiles/QtMySQL.dir/src/teacherinfomation.cpp.obj CMakeFiles/QtMySQL.dir/src/teacherwindow.cpp.obj CMakeFiles/QtMySQL.dir/src/utils.cpp.obj CMakeFiles/QtMySQL.dir/icon.rc.obj | F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Gui.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Sql.a F$:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Core.a || QtMySQL_autogen QtMySQL_autogen_timestamp_deps
   LINK_LIBRARIES = F:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a  F:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  -ld3d11  -ldxgi  -ldxguid  -ld3d12  F:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Sql.a  F:/Developer/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\QtMySQL.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\Code\Qt\QtMySQL\cmake-build-default-qt && F:\Developer\CLion\bin\cmake\win\x64\bin\cmake.exe -E make_directory D:/Code/Qt/QtMySQL/cmake-build-default-qt/plugins/platforms/ && cd /D D:\Code\Qt\QtMySQL\cmake-build-default-qt && F:\Developer\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy F:\Developer\Qt\6.7.2\mingw_64/plugins/platforms/qwindows.dll D:/Code/Qt/QtMySQL/cmake-build-default-qt/plugins/platforms/ && cd /D D:\Code\Qt\QtMySQL\cmake-build-default-qt && F:\Developer\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy F:\Developer\Qt\6.7.2\mingw_64/bin/Qt6Core.dll D:/Code/Qt/QtMySQL/cmake-build-default-qt && cd /D D:\Code\Qt\QtMySQL\cmake-build-default-qt && F:\Developer\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy F:\Developer\Qt\6.7.2\mingw_64/bin/Qt6Gui.dll D:/Code/Qt/QtMySQL/cmake-build-default-qt && cd /D D:\Code\Qt\QtMySQL\cmake-build-default-qt && F:\Developer\CLion\bin\cmake\win\x64\bin\cmake.exe -E copy F:\Developer\Qt\6.7.2\mingw_64/bin/Qt6Widgets.dll D:/Code/Qt/QtMySQL/cmake-build-default-qt"
@@ -189,7 +213,7 @@ build QtMySQL_autogen_timestamp_deps: phony CMakeFiles/QtMySQL_autogen_timestamp
 #############################################
 # Utility command for QtMySQL_autogen
 
-build QtMySQL_autogen: phony CMakeFiles/QtMySQL_autogen QtMySQL_autogen/include/ui/ui_loginwindow.h QtMySQL_autogen/include/ui/ui_registerstudent.h QtMySQL_autogen/include/ui/ui_registerwindow.h QtMySQL_autogen/include/ui/ui_studentinformation.h QtMySQL_autogen/include/ui/ui_studentwindow.h QtMySQL_autogen/include/ui/ui_teacherinfomation.h QtMySQL_autogen/include/ui/ui_teacherwindow.h QtMySQL_autogen/timestamp QtMySQL_autogen/mocs_compilation.cpp QtMySQL_autogen_timestamp_deps
+build QtMySQL_autogen: phony CMakeFiles/QtMySQL_autogen QtMySQL_autogen/include/ui/ui_loginwindow.h QtMySQL_autogen/include/ui/ui_registerstudent.h QtMySQL_autogen/include/ui/ui_registerwindow.h QtMySQL_autogen/include/ui/ui_studentcourseselect.h QtMySQL_autogen/include/ui/ui_studentinformation.h QtMySQL_autogen/include/ui/ui_studentwindow.h QtMySQL_autogen/include/ui/ui_teacheraddnewcourse.h QtMySQL_autogen/include/ui/ui_teacheraddnewcourseinfo.h QtMySQL_autogen/include/ui/ui_teacherinfomation.h QtMySQL_autogen/include/ui/ui_teacherwindow.h QtMySQL_autogen/timestamp QtMySQL_autogen/mocs_compilation.cpp QtMySQL_autogen_timestamp_deps
 
 
 #############################################
@@ -211,7 +235,7 @@ build CMakeFiles/QtMySQL_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFil
 #############################################
 # Phony custom command for CMakeFiles\QtMySQL_autogen
 
-build CMakeFiles/QtMySQL_autogen QtMySQL_autogen/include/ui/ui_loginwindow.h QtMySQL_autogen/include/ui/ui_registerstudent.h QtMySQL_autogen/include/ui/ui_registerwindow.h QtMySQL_autogen/include/ui/ui_studentinformation.h QtMySQL_autogen/include/ui/ui_studentwindow.h QtMySQL_autogen/include/ui/ui_teacherinfomation.h QtMySQL_autogen/include/ui/ui_teacherwindow.h | ${cmake_ninja_workdir}CMakeFiles/QtMySQL_autogen ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_loginwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_registerstudent.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_registerwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_studentinformation.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_studentwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacherinfomation.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacherwindow.h: phony QtMySQL_autogen/timestamp || QtMySQL_autogen_timestamp_deps
+build CMakeFiles/QtMySQL_autogen QtMySQL_autogen/include/ui/ui_loginwindow.h QtMySQL_autogen/include/ui/ui_registerstudent.h QtMySQL_autogen/include/ui/ui_registerwindow.h QtMySQL_autogen/include/ui/ui_studentcourseselect.h QtMySQL_autogen/include/ui/ui_studentinformation.h QtMySQL_autogen/include/ui/ui_studentwindow.h QtMySQL_autogen/include/ui/ui_teacheraddnewcourse.h QtMySQL_autogen/include/ui/ui_teacheraddnewcourseinfo.h QtMySQL_autogen/include/ui/ui_teacherinfomation.h QtMySQL_autogen/include/ui/ui_teacherwindow.h | ${cmake_ninja_workdir}CMakeFiles/QtMySQL_autogen ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_loginwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_registerstudent.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_registerwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_studentcourseselect.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_studentinformation.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_studentwindow.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacheraddnewcourse.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacheraddnewcourseinfo.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacherinfomation.h ${cmake_ninja_workdir}QtMySQL_autogen/include/ui/ui_teacherwindow.h: phony QtMySQL_autogen/timestamp || QtMySQL_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

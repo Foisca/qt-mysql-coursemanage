@@ -139,8 +139,8 @@ public:
     {
         LoginWindow->setWindowTitle(QCoreApplication::translate("LoginWindow", "\347\231\273\351\231\206", nullptr));
         label_2->setText(QCoreApplication::translate("LoginWindow", "<html><head/><body><p align=\"justify\"><span style=\" font-size:12pt; font-weight:700;\">\345\257\206 \347\240\201</span></p></body></html>", nullptr));
-        LineEditUsername->setText(QCoreApplication::translate("LoginWindow", "202330830001", nullptr));
-        LineEditPassword->setText(QCoreApplication::translate("LoginWindow", "20010215", nullptr));
+        LineEditUsername->setText(QCoreApplication::translate("LoginWindow", "T001", nullptr));
+        LineEditPassword->setText(QCoreApplication::translate("LoginWindow", "13800138000", nullptr));
         label->setText(QCoreApplication::translate("LoginWindow", "<html><head/><body><p align=\"right\"><span style=\" font-size:12pt; font-weight:700;\">\347\224\250\346\210\267\345\220\215</span></p></body></html>", nullptr));
         ButtonLogin->setText(QCoreApplication::translate("LoginWindow", "\347\231\273\351\231\206(&Enter)", nullptr));
         ButtonRegister->setText(QCoreApplication::translate("LoginWindow", "\346\263\250\345\206\214", nullptr));

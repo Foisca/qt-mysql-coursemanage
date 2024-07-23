@@ -35,7 +35,7 @@ void TeacherWindow::setModel() {
         return;
     }
     model = new QSqlQueryModel;
-    QString queryString = QString("SELECT * FROM Course WHERE courseTeacherID='%1';").arg(username);
+    QString queryString = QString("CALL GetTeacherCourse('%1');").arg(username);
     qDebug() << "QueryString:" << queryString;
     model->setQuery(queryString, teacherDB);
 
@@ -98,6 +98,20 @@ void TeacherWindow::on_ButtonInfo_clicked() {
 void TeacherWindow::on_return_to_TeacherWindow() {
     if (teacherInfo)
         teacherInfo->hide();
+    if (teacherNewCourse)
+        teacherNewCourse->hide();
     this->show();
 }
 
+
+void TeacherWindow::on_ButtonCourseApply_clicked() {
+    // 点击这个按钮，就打开teachernewcourse这个窗口
+    qDebug() << "ButtonCourseApply clicked";
+    if (!teacherNewCourse) {
+        teacherNewCourse = new TeacherAddNewCourse(username);
+        connect(teacherNewCourse, &TeacherAddNewCourse::return_to_TeacherWindow, this,
+                &TeacherWindow::on_return_to_TeacherWindow);
+    }
+    teacherNewCourse->show();
+    this->hide();
+}

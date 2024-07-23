@@ -277,6 +277,12 @@
 			null
 		],
 		[
+			"D:/Code/Qt/QtMySQL/include/studentcourseselect.h",
+			"MU",
+			"6YEA5652QU/moc_studentcourseselect.cpp",
+			null
+		],
+		[
 			"D:/Code/Qt/QtMySQL/include/studentinformation.h",
 			"MU",
 			"6YEA5652QU/moc_studentinformation.cpp",
@@ -286,6 +292,18 @@
 			"D:/Code/Qt/QtMySQL/include/studentwindow.h",
 			"MU",
 			"6YEA5652QU/moc_studentwindow.cpp",
+			null
+		],
+		[
+			"D:/Code/Qt/QtMySQL/include/teacheraddnewcourse.h",
+			"MU",
+			"6YEA5652QU/moc_teacheraddnewcourse.cpp",
+			null
+		],
+		[
+			"D:/Code/Qt/QtMySQL/include/teacheraddnewcourseinfo.h",
+			"MU",
+			"6YEA5652QU/moc_teacheraddnewcourseinfo.cpp",
 			null
 		],
 		[
@@ -387,8 +405,11 @@
 		[ "D:/Code/Qt/QtMySQL/src/main.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/registerstudent.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/registerwindow.cpp", "MU", null ],
+		[ "D:/Code/Qt/QtMySQL/src/studentcourseselect.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/studentinformation.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/studentwindow.cpp", "MU", null ],
+		[ "D:/Code/Qt/QtMySQL/src/teacheraddnewcourse.cpp", "MU", null ],
+		[ "D:/Code/Qt/QtMySQL/src/teacheraddnewcourseinfo.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/teacherinfomation.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/teacherwindow.cpp", "MU", null ],
 		[ "D:/Code/Qt/QtMySQL/src/utils.cpp", "MU", null ]

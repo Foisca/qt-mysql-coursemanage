@@ -9,8 +9,11 @@ QtMySQL_autogen/timestamp: \
 	D:/Code/Qt/QtMySQL/include/loginwindow.h \
 	D:/Code/Qt/QtMySQL/include/registerstudent.h \
 	D:/Code/Qt/QtMySQL/include/registerwindow.h \
+	D:/Code/Qt/QtMySQL/include/studentcourseselect.h \
 	D:/Code/Qt/QtMySQL/include/studentinformation.h \
 	D:/Code/Qt/QtMySQL/include/studentwindow.h \
+	D:/Code/Qt/QtMySQL/include/teacheraddnewcourse.h \
+	D:/Code/Qt/QtMySQL/include/teacheraddnewcourseinfo.h \
 	D:/Code/Qt/QtMySQL/include/teacherinfomation.h \
 	D:/Code/Qt/QtMySQL/include/teacherwindow.h \
 	D:/Code/Qt/QtMySQL/include/utils.h \
@@ -19,8 +22,11 @@ QtMySQL_autogen/timestamp: \
 	D:/Code/Qt/QtMySQL/src/main.cpp \
 	D:/Code/Qt/QtMySQL/src/registerstudent.cpp \
 	D:/Code/Qt/QtMySQL/src/registerwindow.cpp \
+	D:/Code/Qt/QtMySQL/src/studentcourseselect.cpp \
 	D:/Code/Qt/QtMySQL/src/studentinformation.cpp \
 	D:/Code/Qt/QtMySQL/src/studentwindow.cpp \
+	D:/Code/Qt/QtMySQL/src/teacheraddnewcourse.cpp \
+	D:/Code/Qt/QtMySQL/src/teacheraddnewcourseinfo.cpp \
 	D:/Code/Qt/QtMySQL/src/teacherinfomation.cpp \
 	D:/Code/Qt/QtMySQL/src/teacherwindow.cpp \
 	D:/Code/Qt/QtMySQL/src/utils.cpp \
@@ -589,8 +595,11 @@ QtMySQL_autogen/timestamp: \
 	D:/Code/Qt/QtMySQL/ui/loginwindow.ui \
 	D:/Code/Qt/QtMySQL/ui/registerstudent.ui \
 	D:/Code/Qt/QtMySQL/ui/registerwindow.ui \
+	D:/Code/Qt/QtMySQL/ui/studentcourseselect.ui \
 	D:/Code/Qt/QtMySQL/ui/studentinformation.ui \
 	D:/Code/Qt/QtMySQL/ui/studentwindow.ui \
+	D:/Code/Qt/QtMySQL/ui/teacheraddnewcourse.ui \
+	D:/Code/Qt/QtMySQL/ui/teacheraddnewcourseinfo.ui \
 	D:/Code/Qt/QtMySQL/ui/teacherinfomation.ui \
 	D:/Code/Qt/QtMySQL/ui/teacherwindow.ui \
 	F:/Developer/CLion/bin/cmake/win/x64/bin/cmake.exe

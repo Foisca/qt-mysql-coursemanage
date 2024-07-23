@@ -41,11 +41,11 @@ private slots:
 private:
     Ui::LoginWindow *ui;
 
-    StudentWindow *sw;
+    StudentWindow *studentWindow;
 
-    TeacherWindow *tw;
+    TeacherWindow *teacherWindow;
 
-    RegisterWindow *rw{};
+    RegisterWindow *registerWindow{};
 };
 
 

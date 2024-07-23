@@ -3,8 +3,11 @@ D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/6YEA5652QU/moc_loginwi
   D:/Code/Qt/QtMySQL/include/dbmanager.h \
   D:/Code/Qt/QtMySQL/include/registerstudent.h \
   D:/Code/Qt/QtMySQL/include/registerwindow.h \
+  D:/Code/Qt/QtMySQL/include/studentcourseselect.h \
   D:/Code/Qt/QtMySQL/include/studentinformation.h \
   D:/Code/Qt/QtMySQL/include/studentwindow.h \
+  D:/Code/Qt/QtMySQL/include/teacheraddnewcourse.h \
+  D:/Code/Qt/QtMySQL/include/teacheraddnewcourseinfo.h \
   D:/Code/Qt/QtMySQL/include/teacherinfomation.h \
   D:/Code/Qt/QtMySQL/include/teacherwindow.h \
   D:/Code/Qt/QtMySQL/include/utils.h \

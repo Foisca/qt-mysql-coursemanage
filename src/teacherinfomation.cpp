@@ -20,7 +20,7 @@ TeacherInfomation::TeacherInfomation(const QString &username, QWidget *parent) :
         ui->labelID->setText(teacherID);
         ui->lineEdiName->setText(query.value("teacherName").toString());
         ui->lineEditGender->setText(query.value("teacherGender").toString());
-        ui->lineEditDepartment->setText(query.value("teacherDept").toString());
+        ui->lineEditDepartment->setText(query.value("teacherDepartment").toString());
         ui->lineEditTitle->setText(query.value("teacherTitle").toString());
         ui->lineEditPhone->setText(query.value("teacherPhone").toString());
         ui->lineEditPassword->setText(query.value("password").toString());

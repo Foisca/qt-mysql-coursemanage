@@ -34,7 +34,6 @@ add_executable(QtMySQL
         ${INC}
         ${SRC}
         icon.rc
-        src/studentinformation.cpp
 )
 
 target_link_libraries(QtMySQL

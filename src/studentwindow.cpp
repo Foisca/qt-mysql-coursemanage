@@ -58,6 +58,9 @@ void StudentWindow::setModel() {
         qDebug() << "查询失败:" << nameQuery.lastError();
     }
 
+
+    qDebug() << "name = " << name;
+
     qDebug() << "name = " << name;
     ui->LabelName->setText("你好！" + name + "同学");
     qDebug() << "setModel completed";
@@ -86,4 +89,34 @@ void StudentWindow::on_return_to_StudentWindow() {
     if (studentInfo)
         studentInfo->hide();
     this->show();
+}
+
+
+void StudentWindow::on_ButtonSelect_clicked() {
+    if (!studentCourseSelect) {
+        studentCourseSelect = new StudentCourseSelect(username);
+        connect(studentCourseSelect, &StudentCourseSelect::return_to_StudentWindow, this,
+                &StudentWindow::on_return_to_StudentWindow);
+    }
+    this->hide();
+    studentCourseSelect->show();
+}
+
+void StudentWindow::on_tableViewSC_doubleClicked(const QModelIndex &index) {
+    // 显示点击的一行的数据
+    int row = index.row();
+    QString courseID = model->data(model->index(row, 0)).toString();
+    QString courseName = model->data(model->index(row, 1)).toString();
+    QString courseTeacher = model->data(model->index(row, 2)).toString();
+    QString courseCredit = model->data(model->index(row, 3)).toString();
+    QString courseSelected = model->data(model->index(row, 4)).toString();
+    QString courseGrade = model->data(model->index(row, 5)).toString();
+    //用qdebug打印
+    qDebug() << "课程编号 = " << courseID;
+    qDebug() << "课程名称 = " << courseName;
+    qDebug() << "授课老师 = " << courseTeacher;
+    qDebug() << "课程学分 = " << courseCredit;
+    qDebug() << "选课人数 = " << courseSelected;
+    qDebug() << "成  绩  = " << courseGrade;
+    //将数据显示在label上
 }

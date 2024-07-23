@@ -8,6 +8,7 @@
 #include <QWidget>
 #include "dbmanager.h"
 #include "teacherinfomation.h"
+#include "teacheraddnewcourse.h"
 #include <QStandardItem>
 QT_BEGIN_NAMESPACE
 
@@ -38,6 +39,8 @@ private slots:
 
     void on_ButtonInfo_clicked();
 
+    void on_ButtonCourseApply_clicked();
+
     void on_return_to_TeacherWindow();
 
 private:
@@ -45,6 +48,7 @@ private:
     QString username;
     QSqlQueryModel *model{};
     TeacherInfomation *teacherInfo{};
+    TeacherAddNewCourse *teacherNewCourse{};
 
     void setModel();
 };

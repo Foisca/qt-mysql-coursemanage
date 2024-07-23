@@ -1,6 +1,8 @@
 D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/6YEA5652QU/moc_teacherwindow.cpp: D:/Code/Qt/QtMySQL/include/teacherwindow.h \
   D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/moc_predefs.h \
   D:/Code/Qt/QtMySQL/include/dbmanager.h \
+  D:/Code/Qt/QtMySQL/include/teacheraddnewcourse.h \
+  D:/Code/Qt/QtMySQL/include/teacheraddnewcourseinfo.h \
   D:/Code/Qt/QtMySQL/include/teacherinfomation.h \
   F:/Developer/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   F:/Developer/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
