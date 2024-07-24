@@ -28,5 +28,5 @@ void TeacherAddNewCourseInfo::on_ButtonReturn_clicked() {
 }
 
 void TeacherAddNewCourseInfo::on_ButtonOK_clicked() {
-
+    qDebug() << "ButtonOK clicked";
 }

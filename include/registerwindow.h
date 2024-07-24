@@ -33,7 +33,7 @@ protected:
 private slots:
     void on_ButtonStudent_clicked();
 
-    void on_ButtonTeacher_clicked();
+    static void on_ButtonTeacher_clicked();
 
     void on_ButtonCancel_clicked();
 

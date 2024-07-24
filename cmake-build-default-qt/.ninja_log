@@ -95,3 +95,12 @@
 19	298	7434360662553633	D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/mocs_compilation.cpp	d16403063c2615a8
 303	2173	7434360665396249	CMakeFiles/QtMySQL.dir/src/teacheraddnewcourse.cpp.obj	9ebcff2a14107055
 2174	2882	7434360684097570	QtMySQL.exe	e93307e1ae454d97
+13	1609	7434971004552062	QtMySQL_autogen/timestamp	d16403063c2615a8
+13	1609	7434971004552062	QtMySQL_autogen/mocs_compilation.cpp	d16403063c2615a8
+13	1609	7434971004552062	D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/timestamp	d16403063c2615a8
+13	1609	7434971004552062	D:/Code/Qt/QtMySQL/cmake-build-default-qt/QtMySQL_autogen/mocs_compilation.cpp	d16403063c2615a8
+2070	5243	7434971010147607	CMakeFiles/QtMySQL.dir/src/registerwindow.cpp.obj	ee1337ae7dd9fad7
+2048	5245	7434971009937688	CMakeFiles/QtMySQL.dir/src/loginwindow.cpp.obj	7303a082096c4cdb
+2060	5319	7434971010047354	CMakeFiles/QtMySQL.dir/src/main.cpp.obj	6bad1721df4c45fa
+1610	5539	7434971005549407	CMakeFiles/QtMySQL.dir/QtMySQL_autogen/mocs_compilation.cpp.obj	f611808c38b61d2a
+5539	12011	7434971044843246	QtMySQL.exe	e93307e1ae454d97

@@ -65,7 +65,6 @@ void TeacherAddNewCourse::on_return_to_TeacherAddNewCourseWindow() {
     }
 }
 
-
 void TeacherAddNewCourse::on_tableViewAC_doubleClicked(const QModelIndex &index) {
     // 返回当前行的所有信息
     int row = index.row();
